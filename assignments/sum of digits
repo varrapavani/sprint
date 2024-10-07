@@ -1,0 +1,23 @@
+3 start number:1111 result:0
+
+start:7 number dividend
+      7 ten divisor
+condition1:4 dividend zero stop
+false:condition2:5 dividend ten
+true
+wrong:2 dividend ten dividend
+1 quotient one quotient
+3 condition2
+true:1 result dividend result
+7 quotient dividend
+7 zero quotient
+3 condition1
+stop:9
+
+one:1
+ten:10
+zero:0
+dividend:0
+divisor:0
+quotient:0
+
