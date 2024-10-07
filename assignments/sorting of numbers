@@ -1,0 +1,37 @@
+3 start 
+first-cell-addr:82 length:5
+start:1 first-cell-addr length copy-length
+2 copy-length one c-length
+7 first-cell-addr i-cell
+7 first-cell-addr j-cell
+
+check1:5 i-cell c-length move1
+9 
+move1:7 i-cell j-cell
+a:1 j-cell one j-cell
+check2:5 j-cell copy-length move2
+1 i-cell one i-cell 3 check1
+move2:7 j-cell j-value
+7 i-cell i-value
+7 j-cell k-value
+7 i-cell l-value
+
+7 i-value:0 i-check
+7 j-value:0 j-check
+check3:5 i-check j-check a
+b:7 i-check temp
+7 j-check l-value:0
+7 temp k-value:0
+3 a
+
+one:1
+copy-length:0
+c-length:0
+i-cell:0
+j-cell:0
+i-check:0
+j-check:0
+temp:0
+list:50 40 30 20 10
+
+
