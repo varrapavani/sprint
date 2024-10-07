@@ -1,0 +1,31 @@
+3 start num:5 location:100
+one:1
+zero:0 two:2 number:0  sum:0
+n:0
+
+
+start:7 location location2
+7 location location3
+7 num location2:0 
+7 num n 
+0 fun return 
+fun:3 add
+9
+
+add:2 num one num
+3 push
+stop:7 location3 location4
+addition:1 sum number sum
+3 pop
+exit:1 return two return
+3 return:0
+
+push:4 num zero stop
+1 location3 one location3
+7 num location3:0
+3 add
+
+pop:5 location4 location exit
+7 location4:0 number
+2 location4 one location4
+3 addition
