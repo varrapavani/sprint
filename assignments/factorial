@@ -1,0 +1,22 @@
+3 start
+fact:7 result:1
+i:1
+j:1
+c-fact:0
+d-fact:0
+one:1
+zero:0
+start:7 fact d-fact
+      7 fact c-fact
+condition1:5 i fact 22 9
+7 zero result
+condition2:5 j c-fact 45
+1 i one i
+7 result d-fact
+7 one j
+2 c-fact one c-fact
+3 condition1
+1 d-fact result result
+1 j one j 
+3 condition2
+
