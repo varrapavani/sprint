@@ -1,0 +1,15 @@
+3 start 
+e1 length:5
+target:10
+result:0
+start:4 first-cell-addr:e1 target
+move 
+1 first-cell-addr one first-cell-addr
+1 count one count
+condition2:5 count length start
+stop:9
+move:7 one result 9
+
+count:0
+one:1
+e1:10 20 30 40 50
