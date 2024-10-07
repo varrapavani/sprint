@@ -1,0 +1,23 @@
+3 start first-addr:100
+length:4
+start:7 first-addr copy-addr
+condition1:5 count length
+true
+false:3 stop  
+true:1 previous current nth-term
+7 current previous
+7 nth-term current
+7 previous copy-addr:0
+1 copy-addr one copy-addr
+1 count one count
+3 condition1
+stop:9
+
+
+
+count:0
+nth-term:0
+one:1
+previous:0
+current:0
+
