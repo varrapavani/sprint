@@ -1,0 +1,29 @@
+3 5
+first-ele-addr:60 length:4
+5:2 length one c-length
+1 first-ele-addr c-length  c-length
+7 first-ele-addr f-increment
+7 c-length l-decrement
+check:5 f-increment l-decrement move 9
+move:7 f-increment f
+7 l-decrement l
+7 f-increment f1
+7 l-decrement l2
+7 f:0 copy
+7 l:0 f1:0
+7 copy l2:0
+1 f-increment one f-increment
+2 l-decrement one l-decrement
+3 check
+
+
+c-length:0
+f-increment:0
+l-decrement:0
+one:1
+copy:0
+
+list:10 20 30 40
+
+
+
